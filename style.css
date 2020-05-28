@@ -199,6 +199,38 @@ a {
   padding-left: 8%;
 }
 
+.leaf-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-15%, -50%);
+  width: 11%;
+}
+
+.leaf-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(15%, -50%);
+  width: 11%;
+}
+
+.shape-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-40%, -50%) rotate(45deg);
+  width: 15%;
+}
+
+.shape-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(60%, -50%);
+  width: 15%;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: var(--container-sm);
@@ -378,6 +410,7 @@ a {
 ================================================== */
 .section-2 {
   padding: 120px 0;
+  position: relative;
 }
 
 .section-2 .container {
@@ -421,6 +454,16 @@ a {
   max-width: 450px;
 }
 
+/* Leaf */
+.section-2 .leaf-left {
+  top: 60%;
+}
+
+/* Shape */
+.section-2 .shape-right {
+  top: 20%;
+}
+
 /* #Section 3
 ================================================== */
 .section-3 {
@@ -456,6 +499,7 @@ a {
 ================================================== */
 .section-4 {
   padding: 120px 0;
+  position: relative;
 }
 
 .section-4 .container {
@@ -484,6 +528,23 @@ a {
 
 .section-4 .text-indented {
   max-width: 590px;
+}
+
+/* Leaf */
+.section-4 .leaf-right {
+  top: 30%;
+  z-index: 1;
+}
+
+/* Shape */
+.section-4 .shape-right {
+  top: 20%;
+  transform: translate(40%, -50%);
+}
+
+/* Shape */
+.section-4 .shape-left {
+  top: 0;
 }
 
 /* #Section 5
