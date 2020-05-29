@@ -360,6 +360,7 @@ a {
   left: 0;
   width: 100%;
   padding: 40px 0;
+  z-index: 999;
 }
 
 .header .container {
